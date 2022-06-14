@@ -1,0 +1,22 @@
+:root{
+  --back: #fff;
+  --back-card: #fff;
+  --text: #14213d;
+  --icon-title: #7b2cbf;
+  --border: lightgray;
+  --hicon: #14213d;
+  --h-icon-title: #c8b6ff;
+  --boxshadow: #000;
+}
+
+.dark-them{
+  --back-card: #010a1b;
+  --back: #14213d;
+  --text: #fff;
+  --icon-title: #7b2cbf;
+  --border: lightgray;
+  --hicon: #fff;
+  --h-icon-title: #c8b6ff;
+  --boxshadow: #000;
+}
+

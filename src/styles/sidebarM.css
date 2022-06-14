@@ -1,0 +1,24 @@
+.sidebar-m{
+    width: 250px;
+    top: 55px;
+    left: -300px;
+    position: fixed;
+    z-index: 100;
+    height: calc(100vh - 55px);
+    background-color: var(--back);
+    border-right: 1px solid var(--border);
+    padding-top: 20px;
+    overflow-y: auto;
+}
+
+.open-menu{
+    left: 0px;
+    transition:all .6s;
+}
+
+.close-menu{
+    left: -300px;
+    transition:all .6s;
+}
+
+

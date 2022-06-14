@@ -1,0 +1,70 @@
+.users-header{
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.users-h3{
+    font-size: 25px;
+    color: var(--text);
+    font-weight: bold;
+}
+
+.users-header button{
+    background-color: var(--back);
+    font-size: 16px;
+    font-weight: 500;
+    padding: 5px 8px;
+    color: var(--text);
+    border: 1px solid var(--text);
+    border-radius: 5px;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+}
+
+.table-user-filed{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.table-user-filed p{
+    font-size: 13px;
+}
+
+.active{
+    color: green;
+    background-color: lightgreen;
+    padding: 2px 5px;
+    border-radius: 3px;
+}
+
+.passive{
+    color: red;
+    background-color: rgb(245, 177, 177);
+    padding: 2px 5px;
+    border-radius: 3px;
+}
+
+.delete-user{
+    padding: 3px 5px;
+    color: red;
+    background-color: rgb(245, 177, 177);
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.view-user{
+    padding: 3px 5px;
+    color: blue;
+    background-color: lightblue;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.btn-tabel-users{
+    display: flex;
+    gap: 10px;
+}

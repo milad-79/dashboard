@@ -1,0 +1,22 @@
+.products{
+    flex: 4;
+    background-color: var(--back);
+}
+
+.done path{
+    color: green !important;
+}
+
+.close path{
+    color: red !important;
+}
+
+.products-header{
+    padding: 20px 0;
+}
+
+.products-header h3{
+    font-size: 25px;
+    font-weight: bold;
+    color: var(--text);
+}

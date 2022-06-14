@@ -1,0 +1,13 @@
+.container-right{
+    flex: 4;
+    padding: 30px;
+    flex-direction: column;
+    background: var(--back);
+    transition: all .6s;
+}
+
+@media screen and (max-width: 768px){
+    .container-right{
+        padding: 30px 10px;
+    }
+}
